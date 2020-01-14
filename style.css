@@ -1,0 +1,48 @@
+body {
+  font-family: Hack;
+
+  margin: 0;
+  background: #282828;
+  color:      #ebdbb2;
+}
+
+main {
+  padding: 0px 20px;
+}
+
+::selection {
+  background: #d3869b;
+}
+
+pre {
+  background-color: #3c3836;
+  padding: 1em;
+  border: 0;
+}
+
+a, a:active, a:visited {
+  color: #b16286;
+  background-color: #1d2021;
+}
+
+h1, h2, h3, h4, h5 {
+  margin-bottom: .1rem;
+}
+
+blockquote {
+  border-left: 1px solid #bdae93;
+  margin: 0.5em 10px;
+  padding: 0.5em 10px;
+}
+
+li {
+    padding: 0.25em;
+}
+
+footer {
+  align: center;
+}
+
+header {
+  background: #1d2021;
+}
