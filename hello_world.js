@@ -7,7 +7,8 @@ greetings = [
   ["java", 'System.out.println("hallo " + visitor.toString() + "!");'],
   ["clojure", '(println (str "¡hola " visitor "!"))'],
   ["rust", 'println!("你好 {}!", visitor);'],
-  ["python", 'print("звать {}!".format(visitor))']
+  ["python", 'print("звать {}!".format(visitor))'],
+  ["haskell", 'putStrLn $ "Terve " ++ visitor ++ "!"']
 ];
 
 function getRandomInt(min, max) {
