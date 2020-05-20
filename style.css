@@ -1,11 +1,7 @@
-header,
-h1 {
+header, h1 {
     font-family: "Iosevka Web", monospace;
     background: #282828;
     margin: 0;
-}
-
-h1 {
     padding: 0.2em 0.5em;
 }
 
@@ -21,8 +17,7 @@ main {
     margin: 0em 10em 0em 10em;
 }
 
-.hello-world__text,
-pre {
+.hello-world__text, pre {
     font-size: 150%;
     line-height: 1em;
     margin: 0;
@@ -34,8 +29,4 @@ a:link {
 
 a:visited {
     color: #a89984;
-}
-
-table td {
-    padding: 0.4em;
 }
