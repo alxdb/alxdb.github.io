@@ -19,17 +19,15 @@ function getRandomInt(min, max) {
 let prev_greeting;
 
 function setGreeting() {
-    let index = getRandomInt(0, greetings.length - 1);
     // Don't show a greeting twice in a row
-    while (prev_greeting == index) {
-        index = getRandomInt(0, greetings.length - 1);
-    }
+    do {
+        var index = getRandomInt(0, greetings.length - 1);
+    } while (prev_greeting == index)
+
     prev_greeting = index;
     let greeting = greetings[index];
     hello_world_el.textContent = greeting[1];
 }
 
 setGreeting();
-window.setInterval(() => {
-    setGreeting();
-}, 2500);
+window.setInterval(() => { setGreeting(); }, 2500);
