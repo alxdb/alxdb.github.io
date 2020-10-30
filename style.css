@@ -1,0 +1,56 @@
+html, body, .viewport {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+}
+
+body {
+    font-family: "Iosevka Web";
+    background-color: #070707;
+    color: #D0D0D0;
+}
+
+.vbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.hbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.centered {
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    font-size: 6em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.subtitle {
+    font-size: 1em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.profile-picture {
+    width: 20em;
+    height: auto;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0.5em;
+    border-color: #3f3030;
+}
+
+.links {
+    margin: 1em;
+}
