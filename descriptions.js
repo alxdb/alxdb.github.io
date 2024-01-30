@@ -1,14 +1,14 @@
 descriptions = [
     "Code Charmer",
     "l33t H4x0r",
-    "The Tinkerer",
+    "Journeyman Tinkerer",
     "Bane of CPUs",
-    "GPU Tamer",
+    "Script Wrangler",
     "Embodies Integrated Synergy",
-    "Frameworks are for Cowards",
+    "Afraid of Frameworks",
     "Jack of all Trades, Master of Some",
-    "The 3rd Comming",
-    "Ruler of the Underworld"
+    "The 42nd Comming",
+    "Underworld Dreadlord"
 ];
 
 window.addEventListener('load', function() {
